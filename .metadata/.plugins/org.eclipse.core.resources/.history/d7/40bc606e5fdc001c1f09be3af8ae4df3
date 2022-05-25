@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="Test_dummy_Insert_IN" groupId="com.mitrai.testintegration.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/Test_dummy_Insert_IN.xml</file>
+    </artifact>
+    <artifact name="TestAPI" groupId="com.mitrai.testintegration.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/TestAPI.xml</file>
+    </artifact>
+    <artifact name="TestAPI_swagger" groupId="com.mitrai.testintegration.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/TestAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="TestAPI_metadata" groupId="com.mitrai.testintegration.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/TestAPI_metadata.yaml</file>
+    </artifact>
+</artifacts>

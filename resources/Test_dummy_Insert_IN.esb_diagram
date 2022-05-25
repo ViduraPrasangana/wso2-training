@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_MLchYNxdEeykVYh8U9DV6A" type="Esb" name="Test_dummy_Insert_IN" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_NEPKkNxdEeykVYh8U9DV6A" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NEVRMNxdEeykVYh8U9DV6A" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_PhzZMNxdEeykVYh8U9DV6A" type="3614">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_PhzZMdxdEeykVYh8U9DV6A"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_PhzZMtxdEeykVYh8U9DV6A" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_PhzZM9xdEeykVYh8U9DV6A"/>
+        <element xmi:type="esb:Sequences" href="Test_dummy_Insert_IN.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PhzZNNxdEeykVYh8U9DV6A" width="195" height="125"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_NEPKkdxdEeykVYh8U9DV6A"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_NEPKktxdEeykVYh8U9DV6A" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_NEPKk9xdEeykVYh8U9DV6A"/>
+    <element xmi:type="esb:EsbServer" href="Test_dummy_Insert_IN.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NEPKlNxdEeykVYh8U9DV6A"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_MLchYdxdEeykVYh8U9DV6A"/>
+  <element xmi:type="esb:EsbDiagram" href="Test_dummy_Insert_IN.esb#/"/>
+</notation:Diagram>
