@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="SampleClassMediatorSeq" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="custom">
+        <property name="Into Sequence" value="Sequence"/>
+    </log>
+    <property name="fromSequence" scope="default" type="STRING" value="Value from sequence"/>
+    <class name="com.mitrai.classmediator.Hello"/>
+    <log level="custom">
+        <property expression="get-property('fromClass')" name="After class mediator"/>
+    </log>
+</sequence>

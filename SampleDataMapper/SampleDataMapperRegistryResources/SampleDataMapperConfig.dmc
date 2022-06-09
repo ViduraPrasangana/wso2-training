@@ -1,0 +1,25 @@
+map_S_Employee_S_Employee = function(){ 
+var outputEmployee={};
+var SPLIT_6_0 = '';
+
+SPLIT_6_0 = inputEmployee.Address.split(',');
+outputEmployee =  {};
+outputEmployee.ID = inputEmployee.ID;
+outputEmployee.Name =  {};
+outputEmployee.Name.FullName = inputEmployee.FirstName.toString().concat(' ',inputEmployee.LastName);
+outputEmployee.Name.FirstName = inputEmployee.FirstName;
+outputEmployee.Name.LastName = inputEmployee.LastName;
+outputEmployee.Address =  {};
+outputEmployee.Address.Address1 = SPLIT_6_0[0];
+outputEmployee.Address.Address2 = SPLIT_6_0[1];
+return outputEmployee;
+};
+
+
+
+
+
+
+
+
+

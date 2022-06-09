@@ -1,0 +1,49 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "outputType" : "XML",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "Employee",
+  "type" : "object",
+  "properties" : {
+    "ID" : {
+      "id" : "http://wso2jsonschema.org/ID",
+      "type" : "string"
+    },
+    "Name" : {
+      "id" : "http://wso2jsonschema.org/Name",
+      "type" : "object",
+      "properties" : {
+        "FullName" : {
+          "id" : "http://wso2jsonschema.org/Name/FullName",
+          "type" : "string"
+        },
+        "FirstName" : {
+          "id" : "http://wso2jsonschema.org/Name/FirstName",
+          "type" : "string"
+        },
+        "LastName" : {
+          "id" : "http://wso2jsonschema.org/Name/LastName",
+          "type" : "string"
+        }
+      }
+    },
+    "Address" : {
+      "id" : "http://wso2jsonschema.org/Address",
+      "type" : "object",
+      "properties" : {
+        "Address1" : {
+          "id" : "http://wso2jsonschema.org/Address/Address1",
+          "type" : "string"
+        },
+        "Address2" : {
+          "id" : "http://wso2jsonschema.org/Address/Address2",
+          "type" : "string"
+        }
+      }
+    }
+  },
+  "namespaces" : [ {
+    "prefix" : "xsi",
+    "url" : "http://www.w3.org/2001/XMLSchema"
+  } ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="ActiveMQCreateFileSeq" groupId="org.mitrai.activemq.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ActiveMQCreateFileSeq.xml</file>
+    </artifact>
+    <artifact name="ActiveMQFaultSQ" groupId="org.mitrai.activemq.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/ActiveMQFaultSQ.xml</file>
+    </artifact>
+    <artifact name="ActiveMQSub" groupId="org.mitrai.activemq.inbound-endpoint" version="1.0.0" type="synapse/inbound-endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/inbound-endpoints/ActiveMQSub.xml</file>
+    </artifact>
+</artifacts>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="SampleIterateAggregateSeq" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+    <iterate expression="//jsonArray/jsonElement" id="1" xmlns:ns="http://org.apache.synapse/xsd">
+        <target>
+            <sequence>
+                <log level="custom">
+                    <property expression="json-eval($)" name="request"/>
+                </log>
+                <call>
+                    <endpoint>
+                        <address uri="https://run.mocky.io/v3/d1783f45-054f-47df-8a7c-c7cd365b5310">
+                            <suspendOnFailure>
+                                <initialDuration>-1</initialDuration>
+                                <progressionFactor>1</progressionFactor>
+                            </suspendOnFailure>
+                            <markForSuspension>
+                                <retriesBeforeSuspension>0</retriesBeforeSuspension>
+                            </markForSuspension>
+                        </address>
+                    </endpoint>
+                </call>
+            </sequence>
+        </target>
+    </iterate>
+    <log level="custom">
+        <property expression="json-eval($)" name="reponse"/>
+    </log>
+    <property name="AggregateReponse" scope="default">
+        <jsonObject xmlns=""/>
+    </property>
+    <aggregate id="1">
+        <completeCondition>
+            <messageCount max="-1" min="-1"/>
+        </completeCondition>
+        <onComplete aggregateElementType="root" enclosingElementProperty="AggregateReponse" expression="$body/*[1]" xmlns:ns="http://org.apache.synapse/xsd">
+            <send/>
+        </onComplete>
+    </aggregate>
+</sequence>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_xqiEwON-EeyAObsLQtxpvQ" type="Esb" name="SampleDataMapperAPI" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_zqRu8ON-EeyAObsLQtxpvQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zqa44ON-EeyAObsLQtxpvQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_22lS4ON-EeyAObsLQtxpvQ" type="3668" fontName="Segoe UI">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_22lS4uN-EeyAObsLQtxpvQ" type="7044">
+          <children xmi:type="notation:Node" xmi:id="_22404ON-EeyAObsLQtxpvQ" type="3669">
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_22404eN-EeyAObsLQtxpvQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_22404uN-EeyAObsLQtxpvQ" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_22404-N-EeyAObsLQtxpvQ"/>
+            <element xmi:type="esb:APIResource" href="SampleDataMapperAPI.esb#//@server/@children.0/@resources.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_22405ON-EeyAObsLQtxpvQ" width="300" height="400"/>
+          </children>
+        </children>
+        <element xmi:type="esb:SynapseAPI" href="SampleDataMapperAPI.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_22lS4eN-EeyAObsLQtxpvQ" width="640" height="500"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zqRu8eN-EeyAObsLQtxpvQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zqRu8uN-EeyAObsLQtxpvQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_zqRu8-N-EeyAObsLQtxpvQ"/>
+    <element xmi:type="esb:EsbServer" href="SampleDataMapperAPI.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zqRu9ON-EeyAObsLQtxpvQ"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_xqiEweN-EeyAObsLQtxpvQ"/>
+  <element xmi:type="esb:EsbDiagram" href="SampleDataMapperAPI.esb#/"/>
+</notation:Diagram>

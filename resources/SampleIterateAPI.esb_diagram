@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_N0aQoOXcEeyAObsLQtxpvQ" type="Esb" name="SampleIterateAPI" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_N0vAwuXcEeyAObsLQtxpvQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_N0vAx-XcEeyAObsLQtxpvQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_N-kSMOXcEeyAObsLQtxpvQ" type="3668" fontName="Segoe UI">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_N-kSMuXcEeyAObsLQtxpvQ" type="7044">
+          <children xmi:type="notation:Node" xmi:id="_N-tcIOXcEeyAObsLQtxpvQ" type="3669">
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_N-tcIeXcEeyAObsLQtxpvQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_N-tcIuXcEeyAObsLQtxpvQ" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_N-tcI-XcEeyAObsLQtxpvQ"/>
+            <element xmi:type="esb:APIResource" href="SampleIterateAPI.esb#//@server/@children.0/@resources.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N-tcJOXcEeyAObsLQtxpvQ" width="300" height="400"/>
+          </children>
+        </children>
+        <element xmi:type="esb:SynapseAPI" href="SampleIterateAPI.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N-kSMeXcEeyAObsLQtxpvQ" width="640" height="500"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_N0vAw-XcEeyAObsLQtxpvQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_N0vAxOXcEeyAObsLQtxpvQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_N0vAxeXcEeyAObsLQtxpvQ"/>
+    <element xmi:type="esb:EsbServer" href="SampleIterateAPI.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N0vAxuXcEeyAObsLQtxpvQ"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_N0aQoeXcEeyAObsLQtxpvQ"/>
+  <element xmi:type="esb:EsbDiagram" href="SampleIterateAPI.esb#/"/>
+</notation:Diagram>

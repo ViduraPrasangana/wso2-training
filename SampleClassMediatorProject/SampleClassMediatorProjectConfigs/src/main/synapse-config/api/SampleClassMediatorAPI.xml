@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/class/test" name="SampleClassMediatorAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource inSequence="SampleClassMediatorSeq" methods="GET">
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

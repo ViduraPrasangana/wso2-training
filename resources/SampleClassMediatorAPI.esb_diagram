@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_kJDRAeXUEeyAObsLQtxpvQ" type="Esb" name="SampleClassMediatorAPI" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_kJc5oOXUEeyAObsLQtxpvQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kJc5peXUEeyAObsLQtxpvQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_kT9ggOXUEeyAObsLQtxpvQ" type="3668" fontName="Segoe UI">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_kT9gguXUEeyAObsLQtxpvQ" type="7044">
+          <children xmi:type="notation:Node" xmi:id="_kUHRgOXUEeyAObsLQtxpvQ" type="3669">
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_kUHRgeXUEeyAObsLQtxpvQ"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_kUHRguXUEeyAObsLQtxpvQ" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_kUHRg-XUEeyAObsLQtxpvQ"/>
+            <element xmi:type="esb:APIResource" href="SampleClassMediatorAPI.esb#//@server/@children.0/@resources.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kUHRhOXUEeyAObsLQtxpvQ" width="300" height="400"/>
+          </children>
+        </children>
+        <element xmi:type="esb:SynapseAPI" href="SampleClassMediatorAPI.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kT9ggeXUEeyAObsLQtxpvQ" width="640" height="500"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_kJc5oeXUEeyAObsLQtxpvQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kJc5ouXUEeyAObsLQtxpvQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_kJc5o-XUEeyAObsLQtxpvQ"/>
+    <element xmi:type="esb:EsbServer" href="SampleClassMediatorAPI.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kJc5pOXUEeyAObsLQtxpvQ"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_kJDRAuXUEeyAObsLQtxpvQ"/>
+  <element xmi:type="esb:EsbDiagram" href="SampleClassMediatorAPI.esb#/"/>
+</notation:Diagram>

@@ -1,0 +1,11 @@
+---
+key: "SampleClassMediatorAPI-1.0.0"
+name : "SampleClassMediatorAPI"
+displayName : "SampleClassMediatorAPI"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/class/test"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"
